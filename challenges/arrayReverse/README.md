@@ -12,6 +12,6 @@ O(n) // we have dynamic iterates.
 
 ## Solution
 
-:[whiteboard](/assets/array-reverse.png)
+:[whiteboard](array-reverse.png)
 
 
