@@ -12,4 +12,4 @@ O(n) // we have dynamic iterates.
 
 ## Solution
 
-:[whiteboard](codeChallenge1.png)
+:[whiteboard](array-reverse.png)
