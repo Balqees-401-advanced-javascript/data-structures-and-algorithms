@@ -13,3 +13,5 @@ O(n) // we have dynamic iterates.
 ## Solution
 
 :[whiteboard](array-reverse.png)
+
+
