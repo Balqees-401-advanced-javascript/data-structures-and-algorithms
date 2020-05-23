@@ -17,7 +17,7 @@ function insertShiftArray(arr , num){
         for (let j=middle ; j < arr.length ; j++){
             newArray.push(arr[j]);
       }
-      
+
      return newArray;
    
     }
