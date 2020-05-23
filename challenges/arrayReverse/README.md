@@ -12,6 +12,6 @@ O(n) // we have dynamic iterates.
 
 ## Solution
 
-:[whiteboard](array-reverse.png)
+:[whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/array-reverse.png)
 
 
