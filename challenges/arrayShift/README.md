@@ -1,4 +1,5 @@
-# Reverse an Array
+# Array-Shift
+
 Add value in the middle of an array . 
 
 ## Challenge
@@ -11,5 +12,5 @@ O(n) // we have dynamic iterates.
 
 
 ## Solution
-
 :[whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/arrayShift.png)
+
