@@ -4,8 +4,7 @@ class Node{
     constructor(value){
         this.value= value;
         this.next = null;
-    }
-    
+    }   
 }
 
 class LinkedList{
@@ -52,13 +51,14 @@ class LinkedList{
             nodeString = nodeString  + ` { ${currentNode.value} } -> `
             currentNode = currentNode.next;
         }
-        nodeString = nodeString + `{ ${currentNode.value} } ->`
+        nodeString = nodeString + `{ ${currentNode.value} } -> null`
         return nodeString;
     }
 
           
 }
 
+module.exports = LinkedList;
 
 // let node = new LinkedList();
 // console.log(node.insert(1));
@@ -66,5 +66,5 @@ class LinkedList{
 // node.insert(5);
 // console.log(node.includes(5));
 // console.log(node.toString())
-// module.exports = LinkedList;
+
 

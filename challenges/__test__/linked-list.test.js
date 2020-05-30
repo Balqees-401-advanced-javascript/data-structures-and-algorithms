@@ -1,15 +1,32 @@
 'use strict';
 const LinkedList = require('../linkedList/linked-list');
+let list = new LinkedList();
 
 describe('Linked List', ()=>{
     it('constructer', () => {
-          let list = new LinkedList();
+         
           expect(list.head).toBeNull();
     });
 
     it('insert', ()=>{
-        let list = new LinkedList();
-        list.insert('my test for linked list');
-        expect(list.head.value).toEqual('my test for linked list');
+        list.insert('a');
+        expect(list.head.value).toEqual('a');
     });
+
+    it('insert', ()=>{
+        list.insert('b');
+        expect(list.head.next.value).toEqual('b');
+    });
+
+    it('include', () => {
+        
+        list.includes('a');
+        expect(list.includes('a')).toBeTruthy(); 
+    });
+
+    it('toString' , () =>{
+
+        list.toString();
+        expect(list.toString()).toEqual(" { a } -> { b } -> null");
+    })
 });
