@@ -4,10 +4,12 @@
 ## Challenge
   Creat link list with head and pointer , insert on it , check on some node if it's include.
 
-## Approach & Efficiency
 
+#### Tests
 
-
+      - npm test
+      - npm test -- fileName
+       
 ## Solution
 
 :[whiteboard]()
