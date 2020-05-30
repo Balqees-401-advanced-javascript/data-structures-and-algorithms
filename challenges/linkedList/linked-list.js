@@ -60,11 +60,11 @@ class LinkedList{
 }
 
 
-let node = new LinkedList();
-console.log(node.insert(1));
-node.insert(3);
-node.insert(5);
-console.log(node.includes(5));
-console.log(node.toString())
-module.exports = LinkedList;
+// let node = new LinkedList();
+// console.log(node.insert(1));
+// node.insert(3);
+// node.insert(5);
+// console.log(node.includes(5));
+// console.log(node.toString())
+// module.exports = LinkedList;
 
