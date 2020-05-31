@@ -2,7 +2,7 @@
  Creat Singly Linked Lists
 
 ## Challenge
-  Creat link list with head and pointer , insert on it , check on some node if it's include.
+  Creat link list with head and pointer , insert on the end of it ,after spacific anode, before spacific node , check on some node if it's include.
 
 
 #### Tests
