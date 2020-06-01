@@ -2,10 +2,10 @@
  Creat Singly Linked Lists
 
 ## Challenge
-  Creat link list with head and pointer , insert on the end of it ,after spacific anode, before spacific node , check on some node if it's include.
+Creat link list with head and pointer, insert on the end of it, after specific anode, before specific node, check on some node if it's included, and return value for specific index we give.
 
 
-#### Tests
+#### Tests Only for the first CC
 
       - npm test
       - npm test -- fileName
@@ -13,3 +13,5 @@
 ## Solution
 
 [whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/linkedList.png)
+
+[whiteboard for the last CC]()
