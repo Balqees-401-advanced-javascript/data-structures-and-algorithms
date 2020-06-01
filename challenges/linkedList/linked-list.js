@@ -10,6 +10,7 @@ class Node{
 class LinkedList{
     constructor(){
     this.head =null;
+    this.count =0;
     }
     insert(value){
       let node = new Node(value); 
@@ -22,6 +23,7 @@ class LinkedList{
       let currentNode= this.head;
       while(currentNode.next){
            currentNode = currentNode.next;
+           this.count = this.count+1;
       }
       currentNode.next=node;
     //   console.log(node);
@@ -84,9 +86,39 @@ class LinkedList{
             currentNode=currentNode.next;
         }
     }
-}
+
+    FromEnd(value){
+        // let node = new Node(value); 
+        let currentNode= this.head;
+        //  console.log(currentNode.value);
+        //  console.log(this.count);
+        let length = 0;
+        let index = this.count - value;
+        // console.log(index)
+        // console.log(this.count)
+        // console.log(index);
+        while(currentNode){
+            // console.log(length === index , length , index)
+            // console.log(value);
+            // console.log(length)
+            if(length === index ){
+                // console.log(currentNode.value);
+                return currentNode.value;
+            }
+            else if(this.count > value || value < 0){
+                return 'Exception';
+                // console.log('Exception');
+            }
+            currentNode = currentNode.next;   
+            length = length+1;
+        }
+    }
+  
+    }
+
 
 module.exports = LinkedList;
+
 
 let node = new LinkedList();
 node.insert(1);
@@ -100,3 +132,5 @@ console.log(node.insertAfter(3,7))
 console.log(node.toString())
 node.insert(10);
 console.log(node.toString())
+console.log(node.count)
+console.log(node.FromEnd(-1));
