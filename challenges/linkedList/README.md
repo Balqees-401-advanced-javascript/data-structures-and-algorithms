@@ -14,4 +14,4 @@ Creat link list with head and pointer, insert on the end of it, afte
 
 [whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/linkedList.png)
 
-[whiteboard for the last CC]()
+[whiteboard for the last CC](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/llEnd.png)
