@@ -88,15 +88,15 @@ class LinkedList{
 
 module.exports = LinkedList;
 
-// let node = new LinkedList();
-// console.log(node.insert(1));
-// node.insert(3);
-// node.insert(5);
-// console.log(node.includes(5));
-// console.log(node.toString())
-// console.log(node.insertBefore(3,7))
-// console.log(node.toString())
-// console.log(node.insertAfter(3,7))
-// console.log(node.toString())
-
-                   
+let node = new LinkedList();
+node.insert(1);
+node.insert(3);
+node.insert(5);
+console.log(node.includes(5));
+console.log(node.toString())
+console.log(node.insertBefore(3,14))
+console.log(node.toString())
+console.log(node.insertAfter(3,7))
+console.log(node.toString())
+node.insert(10);
+console.log(node.toString())
