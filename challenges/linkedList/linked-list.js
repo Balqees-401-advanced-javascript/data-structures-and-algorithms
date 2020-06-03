@@ -114,7 +114,28 @@ class LinkedList{
         }
     }
 
-    
+    // mergeLists(){
+    //     let node = new LinkedList();
+    //     let node2 = new LinkedList();
+    //      let currentNode1 = this.head;
+    //     //  console.log(currentNode1);
+    //     while(currentNode1){
+    //         console.log(currentNode1);
+    //     }
+    //      let currentNode2 = this.head;
+    //      console.log(currentNode2);
+    // }
+
+    // Palindrome(linkedList) {
+    //     let arrayCurrentLinkedList = linkedList;
+    //     let newArray = [];
+
+    //     while(arrayCurrentLinkedList !== null){
+             
+    //     }
+
+
+    //             }
   
     }
 
@@ -123,16 +144,25 @@ module.exports = LinkedList;
 
 
 let node = new LinkedList();
+let node2 = new LinkedList();
+node2.insert(14);
+node2.insert(14);
+node2.insert(14);
 node.insert(1);
 node.insert(3);
-node.insert(5);
-console.log(node.includes(5));
+node.insert(2);
 console.log(node.toString())
-console.log(node.insertBefore(3,14))
-console.log(node.toString())
-console.log(node.insertAfter(3,7))
-console.log(node.toString())
-node.insert(10);
-console.log(node.toString())
-console.log(node.count)
-console.log(node.FromEnd(-1));
+console.log(node2.toString())
+node.mergeLists()
+// console.log(node.includes(5));
+// console.log(node.toString())
+// console.log(node.insertBefore(3,14))
+// console.log(node.toString())
+// console.log(node.insertAfter(3,7))
+// console.log(node.toString())
+// node.insert(2);
+// node.insert(3);
+// node.insert(1);
+// console.log(node.toString())
+// console.log(node.count)
+// console.log(node.FromEnd(-1));
