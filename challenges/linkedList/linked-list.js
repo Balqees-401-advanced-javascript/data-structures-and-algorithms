@@ -88,43 +88,45 @@ class LinkedList{
     }
 
     FromEnd(value){
-        // let node = new Node(value); 
+      
         let currentNode= this.head;
-        //  console.log(currentNode.value);
-        //  console.log(this.count);
         let length = 0;
         let index = this.count - value;
-        // console.log(index)
-        // console.log(this.count)
-        // console.log(index);
         while(currentNode){
-            // console.log(length === index , length , index)
-            // console.log(value);
-            // console.log(length)
             if(length === index ){
-                // console.log(currentNode.value);
                 return currentNode.value;
             }
             else if(this.count > value || value < 0){
                 return 'Exception';
-                // console.log('Exception');
             }
             currentNode = currentNode.next;   
             length = length+1;
         }
     }
 
-    // mergeLists(){
-    //     let node = new LinkedList();
-    //     let node2 = new LinkedList();
-    //      let currentNode1 = this.head;
-    //     //  console.log(currentNode1);
-    //     while(currentNode1){
-    //         console.log(currentNode1);
-    //     }
-    //      let currentNode2 = this.head;
-    //      console.log(currentNode2);
-    // }
+    mergeLists(link1 , link2){
+        this.head = new Node();
+        let currentNode = this.head;
+        link1 = link1.head;
+        link2 = link2.head;
+        while(link1 || link2){
+            if (link1){
+                let node = new Node(link1.value);
+                currentNode.next = node;
+                currentNode = currentNode.next;
+                link1 = link1.next;
+            }
+            if (link2){
+                let node1 = new Node(link2.value);
+                currentNode.next = node1;
+                currentNode = currentNode.next;
+                link2 = link2.next;
+            }
+               
+          }    
+          this.head = this.head.next; 
+       return this;
+    }
 
     // Palindrome(linkedList) {
     //     let arrayCurrentLinkedList = linkedList;
@@ -143,17 +145,23 @@ class LinkedList{
 module.exports = LinkedList;
 
 
-let node = new LinkedList();
-let node2 = new LinkedList();
-node2.insert(14);
-node2.insert(14);
-node2.insert(14);
-node.insert(1);
-node.insert(3);
-node.insert(2);
-console.log(node.toString())
-console.log(node2.toString())
-node.mergeLists()
+// let node = new LinkedList();
+// let node2 = new LinkedList();
+// let l = new LinkedList()
+// node2.insert(14);
+// node2.insert(14);
+// node2.insert(14);
+
+// node.insert(1);
+// node.insert(3);
+// node.insert(2);
+// node.insert(5)
+// node.insert(7)
+// l.mergeLists(node , node2)
+// console.log(l.toString())
+// console.log(node.toString())
+// console.log(node2.toString())
+// node.mergeLists()
 // console.log(node.includes(5));
 // console.log(node.toString())
 // console.log(node.insertBefore(3,14))
