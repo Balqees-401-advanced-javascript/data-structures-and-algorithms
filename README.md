@@ -10,4 +10,4 @@ Challenge05 | [llMerge](https://github.com/Balqees-401-advanced-javascript/data-
 Challenge06 | [multiBracketValidation](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/multiBracketValidation)
 Challenge07 | [queueWithStacks](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/queueWithStacks)
 Challenge08 | [stacksAndQueues](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/stacksAndQueues)
-
+Challenge09 | [fifoAnimalShelter](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/fifoAnimalShelter)
