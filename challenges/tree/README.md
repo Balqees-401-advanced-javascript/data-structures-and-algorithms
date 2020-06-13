@@ -17,4 +17,4 @@ Define a method named contains that accepts a value, and returns a boolean indic
        
 ## Solution
 
-[whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/Queues.png)
+[whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/20200614_004815.jpg)
