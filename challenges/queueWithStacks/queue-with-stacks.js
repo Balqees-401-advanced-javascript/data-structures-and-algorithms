@@ -86,3 +86,27 @@ class Queue{
      }
 }
 
+class PsQueue {
+    constructor(){
+      this.front = null;
+      this.pseudoQueueSpace = [];
+      this.stack = new Stack();
+  
+    }
+    enqueue (value){
+      this.stack.push(value);
+      this.pseudoQueueSpace = this.stack.storage;
+      this.front = this.pseudoQueueSpace[0];
+      return this.pseudoQueueSpace;
+    }
+  
+    dequeue (){
+      this.stack.pop();
+      this.pseudoQueueSpace = this.stack.storage;
+      this.front = this.pseudoQueueSpace[0];
+      return this.pseudoQueueSpace
+    }
+    peek(){
+      return this.front ? this.front.value : ' queue is empty';
+    }
+  }
