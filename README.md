@@ -12,4 +12,4 @@ Challenge07 | [queueWithStacks](https://github.com/Balqees-401-advanced-javascri
 Challenge08 | [stacksAndQueues](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/stacksAndQueues)
 Challenge09 | [fifoAnimalShelter](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/fifoAnimalShelter)
 Challenge10 | [tree](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/tree)
-
+Challenge11 | [fizzBuzzTree](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/master/challenges/fizzBuzzTree)
