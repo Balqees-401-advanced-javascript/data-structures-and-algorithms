@@ -9,12 +9,9 @@ class BinaryTree {
         let results = [];
 
         let _walk = (node)=> {
-            // 1. read TreeNode
             if(node.value )
             results.push(node.value);
-            // 2. go Left
             if(node.left) _walk(node.left);
-            // 3. go Right
             if (node.right) _walk(node.right);
         }
 

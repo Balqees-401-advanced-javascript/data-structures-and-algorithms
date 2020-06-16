@@ -18,4 +18,4 @@ Creat method that return the max value in the tree.
        
 ## Solution
 
-[whiteboard]()
+[whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/20200616_205032.jpg)
