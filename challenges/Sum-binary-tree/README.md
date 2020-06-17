@@ -17,4 +17,4 @@
        
 ## Solution
 
-[whiteboard]()
+[whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/master/assets/20200618_011943.jpg)
