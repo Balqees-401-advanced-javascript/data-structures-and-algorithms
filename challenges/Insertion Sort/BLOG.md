@@ -22,4 +22,4 @@
        
 ## Solution
 
-[whiteboard]()
+[whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/insertionsort/assets/insertionSort)
