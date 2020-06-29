@@ -18,6 +18,7 @@
 
 # Pseudocode : 
 
+  ```
   InsertionSort(int[] arr)
   
     FOR i = 1 to arr.length
@@ -30,11 +31,13 @@
         j <-- j - 1
         
       arr[j + 1] <-- temp    
-
+   
+  ```
 
 
 # code :
 
+  ```
   function insertionSort(arr){
     for(let i=1;i<arr.length;i++){
         let j = i-1;
@@ -47,13 +50,17 @@
       }
        return arr;
   }
-
+  
+  ```
 
 #### Tests Only for the first CC
-      
+
+  ```      
       - console.log()
       - npm run test insertionSort.test.js
-       
+
+  ```     
+
 ## Solution
 
 [whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/insertionsort/assets/insertionSort)
