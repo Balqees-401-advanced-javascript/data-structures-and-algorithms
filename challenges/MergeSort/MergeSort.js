@@ -31,13 +31,18 @@ function Mergesort(arr){
 }    
 
       if (i === left.length){
-        arr[k] = right[j]
+        for ( j ; j<right.length ; j++){
+          arr[k] = right[j];
+          k = k+1;
+        }
       }
     
       else {
-          arr[k] = left[i]
-      }
-    
+        for ( i ; i<left.length ; i++){
+          arr[k] = left[i];
+          k = k+1;
+        }
+      }   
     }
   
     
