@@ -110,4 +110,4 @@ function Mergesort(arr){
 
 ## Solution
 
-![whiteboard]()
+![whiteboard](../../assets/MergeCC.png)
