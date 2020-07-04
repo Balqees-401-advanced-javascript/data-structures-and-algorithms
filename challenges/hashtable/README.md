@@ -14,4 +14,4 @@
 
 ## Solution
 
-![whiteboard]()
+![whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/hashtable/assets/20200704_225955.jpg)
