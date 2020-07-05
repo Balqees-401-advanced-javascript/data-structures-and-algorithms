@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms#readme",
   "dependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.1.0"
   }
 }
