@@ -7,7 +7,7 @@ Write a function called tree_intersection that takes two binary tree parameters.
      
      - Create it without any build in function.
 
-#### Tests Only for the first CC
+#### Tests 
       
       - console.log()
    

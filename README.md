@@ -18,4 +18,4 @@ Challenge13 | [Sum-binary-tree](https://github.com/Balqees-401-advanced-javascri
 Challenge14 | [insertionSort](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/Quick-Sort/challenges/Insertion%20Sort)
 Challenge15 | [MergeSort](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/Quick-Sort/challenges/MergeSort)
 Challenge16 | [QuicknSort](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/Quick-Sort/challenges/Quick-Sort)
-Challenge17 | [Tree-Insertion]()
+Challenge17 | [Tree-Insertion](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/tree/tree-intersection/challenges/treeIntersection)
