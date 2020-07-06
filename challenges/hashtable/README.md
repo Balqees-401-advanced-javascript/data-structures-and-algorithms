@@ -17,11 +17,12 @@
     
 ## Big O
 
-     - add  ---- > O(1) ------- > constant time. 
-     - get  ---- > O(1) ------- > constant time. 
-     - contains  ---- > O(1) ------- > constant time. 
-     - hash  ---- > O(1) ------- > constant time. 
+     - add  ---- > for [ time and space] O(1) ------- > constant time. 
+     - get  ---- > for [ time and space] O(1) ------- > constant time. 
+     - contains  ---- > for [ time and space] O(1) ------- > constant time. 
+     - hash  ---- > for [ time and space] O(1) ------- > constant time. 
 
 ## Solution
 
 ![whiteboard](https://github.com/Balqees-401-advanced-javascript/data-structures-and-algorithms/blob/hashtable/assets/20200704_225955.jpg)
+![whiteboard](../../assets/Hash.png)
